@@ -1,0 +1,117 @@
+p.titulos {
+	text-align: center;
+	font-size: 30px;
+	font-family: Candara;
+	padding: 3px;
+}
+
+hr {
+	height: 4px;
+	color: #6E8B3D;
+	background: #6E8B3D;	
+	border-radius: 2px;
+}
+
+th.tit01 {
+	font-size: 23px;
+	text-decoration: underline;
+	text-align: center;
+	font-family: Candara;
+}
+
+table {
+	width: 70%;
+	line-height: 40px;
+	border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 0.9em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	align: center;
+	font-family: Candara;
+}
+
+#form td:nth-child(odd) {
+	text-align: right;
+	font-weight: bold;
+}
+
+#form input[type=submit] {
+	margin-left: 90px;
+	margin-bottom: 15px;
+	padding: 10px;
+	font-size: 15px;
+	border-radius: 20px;
+	background: #6E8B3D;
+	border: 0px;
+	font-family: Candara;
+	color: #F5FFFA;
+}
+
+#form input[type=submit]:hover {
+	background-color: #A2CD5A;
+	font-family: Candara;
+	color: #F5FFFA;
+}
+
+input[type=text], .listaGen {
+	margin-left: 15px;
+	width: 250px;
+	border-radius: 14px;
+	padding: 8px;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    border: 0 none;
+}
+
+input[type=date], .listaGen {
+	margin-left: 15px;
+	width: 250px;
+	border-radius: 14px;
+	padding: 8px;
+	box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
+    border: 0 none;
+}
+
+input.input01 {
+	margin-left: 5px;
+	width: 10%;
+}
+
+#lista table {
+	width: 100%;
+	line-height: 40px;
+	border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 0.9em;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+	align: center;
+}
+
+#lista tr {
+	font-size:14px;
+	weight: bold;
+}
+
+#lista td {
+    padding: 12px 10px;
+	font-size: 13px;
+}
+
+#lista input[type=submit] {
+	padding: 5px;
+	font-size: 10px;
+	border-radius: 10px;
+	background: #6E8B3D;
+	border: 0px;
+	font-family: Candara;
+	color: #F5FFFA;
+}
+
+#lista input[type=submit]:hover {
+	background-color: #A2CD5A;
+	font-family: Candara;
+	color: #F5FFFA;
+}
+
+tr.listaClientes {
+	text-align: center;
+}
